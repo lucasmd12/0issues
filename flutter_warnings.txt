@@ -1,0 +1,14 @@
+warning • The value of the field '_socketService' isn't used • lib/providers/call_provider.dart:14:23 • unused_field
+warning • Unused import: 'package:provider/provider.dart' • lib/screens/admin_panel_screen.dart:2:8 • unused_import
+warning • Unused import: 'package:flutter_webrtc/flutter_webrtc.dart' • lib/screens/call_screen.dart:3:8 • unused_import
+warning • Unused import: 'package:lucasbeatsfederacao/utils/logger.dart' • lib/screens/call_screen.dart:7:8 • unused_import
+warning • Unused import: 'package:lucasbeatsfederacao/models/user_model.dart' • lib/services/clan_service.dart:8:8 • unused_import
+warning • The value of the field '_authService' isn't used • lib/services/federation_service.dart:8:21 • unused_field
+warning • The value of the field '_apiService' isn't used • lib/services/notification_service.dart:10:20 • unused_field
+warning • The value of the field '_authService' isn't used • lib/services/notification_service.dart:11:21 • unused_field
+warning • The value of the field '_authService' isn't used • lib/services/socket_service.dart:15:21 • unused_field
+warning • The '!' will have no effect because the receiver can't be null • lib/services/voip_service.dart:71:49 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null • lib/services/voip_service.dart:149:45 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null • lib/services/voip_service.dart:281:97 • unnecessary_non_null_assertion
+warning • The declaration '_formatDate' isn't referenced • lib/widgets/federation_management.dart:600:10 • unused_element
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/member_list_item.dart:175:41 • unnecessary_non_null_assertion

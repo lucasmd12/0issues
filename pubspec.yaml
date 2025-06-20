@@ -1,0 +1,89 @@
+name: lucasbeatsfederacao
+description: 'Aplicativo FEDERACAOMAD: Comunicação e organização.'
+publish_to: 'none'
+version: 2.1.0+4
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  sentry_flutter: ^8.14.2
+  # Firebase
+  firebase_core: ^3.14.0
+  firebase_database: ^11.3.7
+  firebase_messaging: ^15.2.7
+  firebase_auth: ^5.6.0
+
+  # Jitsi Meet
+  jitsi_meet_wrapper:
+    git:
+      url: https://github.com/lucasmd12/jitsi_meet_wrapper_fix.git
+      path: jitsi_meet_wrapper # Indica que o pacote está na subpasta 'jitsi_meet_wrapper' dentro do seu repositório
+      ref: main # A branch principal do seu repositório (pelo que vi na imagem, é 'main')
+
+  # Backend Communication
+  http: ^1.2.1
+  socket_io_client: ^3.1.2
+
+  # Estado e armazenamento
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.4
+
+  # UI e formatação
+  intl: ^0.20.2
+  flutter_svg: ^2.0.10+1
+
+  # Funcionalidades
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  flutter_secure_storage: ^9.2.2
+
+  # WebRTC para VoIP (mantido para compatibilidade)
+  flutter_webrtc: ^0.14.1
+  uuid: ^4.4.0
+
+  # Audio
+  audioplayers: ^6.0.0
+
+  # Cache e performance
+  cached_network_image: ^3.3.1
+  
+  # Notificações
+  flutter_local_notifications: ^19.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.14.3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images_png/app_logo.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/images_png/app_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images_png/
+    - assets/images_png/backgrounds/
+    - assets/images_png/clan_images/
+    - assets/audio/
+    - assets/fonts/
+
+  fonts:
+    - family: Gothic
+      fonts:
+        - asset: assets/fonts/gothic.ttf
+    - family: Digital
+      fonts:
+        - asset: assets/fonts/digital.ttf
+

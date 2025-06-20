@@ -1,0 +1,33 @@
+// Endpoint para promover usuário para admin
+router.post('/promote-user', protect, checkAdmin, async (req, res) => {
+  try {
+    const { username } = req.body;
+    
+    if (!username) {
+      return res.status(400).json({ msg: 'Username é obrigatório' });
+    }
+    
+    const user = await User.findOne({ username });
+    if (!user) {
+      return res.status(404).json({ msg: 'Usuário não encontrado' });
+    }
+    
+    // Promover para admin
+    user.role = 'admin';
+    await user.save();
+    
+    res.json({ 
+      msg: `Usuário ${username} promovido para administrador com sucesso`,
+      user: {
+        id: user._id,
+        username: user.username,
+        role: user.role
+      }
+    });
+  } catch (error) {
+    console.error('Erro ao promover usuário:', error);
+    res.status(500).json({ msg: 'Erro interno do servidor' });
+  }
+});
+
+module.exports = router;

@@ -1,0 +1,53 @@
+# Exemplo de codemagic.yaml SIMPLIFICADO para o projeto federacaomad
+# Este arquivo assume que google-services.json ESTÁ PRESENTE no repositório
+# em android/app/google-services.json. NÃO RECOMENDADO por segurança.
+# Substitua os placeholders e ajuste conforme necessário.
+
+workflows:
+  android-debug-build-insecure: # Nome do seu workflow (sugestão: indicar que é inseguro)
+    name: Federacaomad Android Debug Build (google-services.json no repo)
+    # Defina seus triggers (ex: push para o branch main)
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: 'main'
+          include: true
+
+    environment:
+      flutter: stable # Ou a versão específica do Flutter que você usa
+      # Adicione outras variáveis de ambiente se necessário (ex: Java version)
+
+    scripts:
+
+      - name: Configurar Flutter
+        script: |
+          flutter config --enable-android
+          flutter doctor
+
+      - name: Limpar cache do Flutter
+        script: |
+          flutter clean
+
+      - name: Obter dependências Flutter
+        script: |
+          flutter pub get
+
+      - name: Construir APK Debug
+        script: |
+          # Garante que estamos no diretório raiz do projeto Flutter
+          cd $CM_BUILD_DIR
+          flutter build apk --debug
+
+    artifacts:
+      - build/app/outputs/flutter-apk/app-debug.apk
+
+    publishing:
+      # Adicione configurações de publicação se desejar (ex: email, Slack, Google Play)
+      email:
+        recipients:
+          - seu_email@exemplo.com # Substitua pelo seu email
+        notify:
+          success: true
+          failure: true
+

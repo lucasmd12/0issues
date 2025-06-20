@@ -1,0 +1,185 @@
+Analyzing manusfff_...                                          
+
+warning • The value of the field '_authService' isn't used • lib/providers/call_provider.dart:8:21 • unused_field
+   info • Use interpolation to compose strings and values • lib/providers/call_provider.dart:69:17 • prefer_interpolation_to_compose_strings
+   info • Unnecessary use of 'toList' in a spread • lib/screens/admin_panel_screen.dart:316:12 • unnecessary_to_list_in_spreads
+   info • Unnecessary use of 'toList' in a spread • lib/screens/admin_panel_screen.dart:362:16 • unnecessary_to_list_in_spreads
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:437:37 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:438:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:445:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:510:33 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:511:40 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:518:40 • use_build_context_synchronously
+warning • The '!' will have no effect because the receiver can't be null • lib/screens/call_contacts_screen.dart:164:61 • unnecessary_non_null_assertion
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/call_history_page.dart:201:26 • deprecated_member_use
+warning • Unused import: 'package:lucasbeatsfederacao/utils/logger.dart' • lib/screens/call_page.dart:7:8 • unused_import
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/call_page.dart:240:28 • use_build_context_synchronously
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/call_page.dart:266:35 • deprecated_member_use
+   info • Parameter 'key' could be a super parameter • lib/screens/call_screen.dart:11:9 • use_super_parameters
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/call_screen.dart:123:12 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/home_screen.dart:211:28 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:148:54 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:197:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:213:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:250:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/chat_list_tab.dart:182:57 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:78:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:174:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:212:22 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:214:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/members_tab.dart:191:55 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/members_tab.dart:207:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/missions_tab.dart:148:41 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/tabs/missions_tab.dart:277:44 • use_build_context_synchronously
+   info • Unnecessary use of 'toList' in a spread • lib/screens/voice_rooms_screen.dart:217:20 • unnecessary_to_list_in_spreads
+warning • The left operand can't be null, so the right operand is never executed • lib/screens/voice_rooms_screen.dart:261:44 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null • lib/screens/voice_rooms_screen.dart:271:58 • unnecessary_non_null_assertion
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/voice_rooms_screen.dart:299:36 • use_build_context_synchronously
+   info • Unnecessary braces in a string interpolation • lib/services/cache_service.dart:157:43 • unnecessary_brace_in_string_interps
+warning • The '!' will have no effect because the receiver can't be null • lib/services/chat_service.dart:196:28 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true' • lib/services/firebase_service.dart:55:35 • unnecessary_null_comparison
+   info • Unnecessary override • lib/services/firebase_service.dart:199:8 • unnecessary_overrides
+   info • The prefix 'IO' isn't a lower_case_with_underscores identifier • lib/services/socket_service.dart:2:60 • library_prefixes
+warning • The name JitsiMeetingListener is shown, but isn't used • lib/services/voip_service.dart:7:87 • unused_shown_name
+warning • The '!' will have no effect because the receiver can't be null • lib/services/voip_service.dart:158:47 • unnecessary_non_null_assertion
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:21:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:156:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:206:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:236:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:271:28 • deprecated_member_use
+warning • Unused import: 'package:lucasbeatsfederacao/services/permission_service.dart' • lib/widgets/chat_widget.dart:5:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/chat_widget.dart:276:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:60:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:72:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:85:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:97:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:193:29 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:276:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:278:56 • deprecated_member_use
+  error • Too many positional arguments: 1 expected, but 2 found • lib/widgets/federation_management.dart:32:58 • extra_positional_arguments
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:166:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:198:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:278:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:329:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:331:61 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:364:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:366:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:399:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:401:60 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:491:48 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:494:46 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:498:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:581:46 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:584:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:588:42 • use_build_context_synchronously
+warning • The declaration '_formatDate' isn't referenced • lib/widgets/federation_management.dart:599:10 • unused_element
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/global_stats_widget.dart:109:38 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/global_stats_widget.dart:181:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/global_stats_widget.dart:235:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/incoming_call_overlay.dart:95:30 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/incoming_call_overlay.dart:96:30 • deprecated_member_use
+  error • The named parameter 'roomName' is required, but there's no corresponding argument • lib/widgets/incoming_call_overlay.dart:270:35 • missing_required_argument
+  error • 2 positional arguments expected by 'acceptCall', but 0 found • lib/widgets/incoming_call_overlay.dart:280:36 • not_enough_positional_arguments
+  error • 1 positional argument expected by 'rejectCall', but 0 found • lib/widgets/incoming_call_overlay.dart:294:36 • not_enough_positional_arguments
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/member_list_item.dart:26:35 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/member_list_item.dart:170:22 • use_build_context_synchronously
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/member_list_item.dart:175:41 • unnecessary_non_null_assertion
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/member_list_item.dart:186:30 • use_build_context_synchronously
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/mission_card.dart:28:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/mission_card.dart:174:39 • deprecated_member_use
+  error • Undefined name 'Role' • lib/widgets/permission_widget.dart:151:16 • undefined_identifier
+  error • Undefined name 'Role' • lib/widgets/permission_widget.dart:153:16 • undefined_identifier
+  error • Undefined name 'Role' • lib/widgets/permission_widget.dart:155:16 • undefined_identifier
+  error • Undefined name 'Role' • lib/widgets/permission_widget.dart:185:12 • undefined_identifier
+  error • Undefined name 'Role' • lib/widgets/permission_widget.dart:190:12 • undefined_identifier
+  error • Undefined name 'Role' • lib/widgets/permission_widget.dart:195:12 • undefined_identifier
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/quick_actions_widget.dart:19:35 • deprecated_member_use
+  error • Local variable '_buildAdminActions' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:46:16 • referenced_before_declaration
+  error • Local variable '_buildLeaderActions' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:52:16 • referenced_before_declaration
+  error • Local variable '_buildSubLeaderActions' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:54:16 • referenced_before_declaration
+  error • Local variable '_buildMemberActions' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:56:16 • referenced_before_declaration
+  error • Local variable '_buildGuestActions' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:58:16 • referenced_before_declaration
+  error • Local variable '_buildGuestActions' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:62:16 • referenced_before_declaration
+warning • Dead code • lib/widgets/quick_actions_widget.dart:65:3 • dead_code
+   info • The local variable '_buildAdminActions' starts with an underscore • lib/widgets/quick_actions_widget.dart:65:10 • no_leading_underscores_for_local_identifiers
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:70:9 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:80:9 • referenced_before_declaration
+  error • Local variable '_showCreateFederationDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:85:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:87:9 • referenced_before_declaration
+  error • Local variable '_showManageClansDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:92:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:94:9 • referenced_before_declaration
+  error • Local variable '_showPromoteUserDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:99:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:101:9 • referenced_before_declaration
+   info • The local variable '_buildLeaderActions' starts with an underscore • lib/widgets/quick_actions_widget.dart:112:10 • no_leading_underscores_for_local_identifiers
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:117:9 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:127:9 • referenced_before_declaration
+  error • Local variable '_showAddMemberDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:132:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:134:9 • referenced_before_declaration
+  error • Local variable '_showCreateChannelDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:139:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:141:9 • referenced_before_declaration
+  error • Local variable '_showClanSettingsDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:146:17 • referenced_before_declaration
+   info • The local variable '_buildSubLeaderActions' starts with an underscore • lib/widgets/quick_actions_widget.dart:152:10 • no_leading_underscores_for_local_identifiers
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:157:9 • referenced_before_declaration
+  error • Local variable '_showManageMembersDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:162:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:164:9 • referenced_before_declaration
+  error • Local variable '_showModerateChatDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:169:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:171:9 • referenced_before_declaration
+  error • Local variable '_showReportsDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:176:17 • referenced_before_declaration
+   info • The local variable '_buildMemberActions' starts with an underscore • lib/widgets/quick_actions_widget.dart:182:10 • no_leading_underscores_for_local_identifiers
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:187:9 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:194:9 • referenced_before_declaration
+  error • Local variable '_showJoinChannelDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:199:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:201:9 • referenced_before_declaration
+  error • Local variable '_showMissionsDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:206:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:208:9 • referenced_before_declaration
+  error • Local variable '_showClanProfileDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:213:17 • referenced_before_declaration
+   info • The local variable '_buildGuestActions' starts with an underscore • lib/widgets/quick_actions_widget.dart:219:10 • no_leading_underscores_for_local_identifiers
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:224:9 • referenced_before_declaration
+  error • Local variable '_showRequestJoinDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:229:17 • referenced_before_declaration
+  error • Local variable '_buildActionButton' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:231:9 • referenced_before_declaration
+  error • Local variable '_showExploreClansDialog' can't be referenced before it is declared • lib/widgets/quick_actions_widget.dart:236:17 • referenced_before_declaration
+   info • The local variable '_buildActionButton' starts with an underscore • lib/widgets/quick_actions_widget.dart:242:10 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showCreateFederationDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:263:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showManageClansDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:279:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showPromoteUserDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:295:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showAddMemberDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:311:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showCreateChannelDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:327:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showClanSettingsDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:343:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showManageMembersDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:359:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showModerateChatDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:375:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showReportsDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:391:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showJoinChannelDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:407:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showMissionsDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:423:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showClanProfileDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:439:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showRequestJoinDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:455:8 • no_leading_underscores_for_local_identifiers
+   info • The local variable '_showExploreClansDialog' starts with an underscore • lib/widgets/quick_actions_widget.dart:471:8 • no_leading_underscores_for_local_identifiers
+warning • The declaration '_initiateCall' isn't referenced • lib/widgets/quick_actions_widget.dart:493:8 • unused_element
+  error • The method '_buildActionButton' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:522:9 • undefined_method
+  error • The method '_buildActionButton' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:532:9 • undefined_method
+  error • The method '_showPromoteUserDialog' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:537:17 • undefined_method
+  error • The method '_buildActionButton' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:539:9 • undefined_method
+  error • The method '_buildActionButton' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:555:9 • undefined_method
+  error • The method '_showMissionsDialog' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:560:17 • undefined_method
+  error • The method '_buildActionButton' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:562:9 • undefined_method
+  error • The method '_buildActionButton' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:578:9 • undefined_method
+  error • The method '_buildActionButton' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:585:9 • undefined_method
+  error • The method '_showMissionsDialog' isn't defined for the type 'QuickActionsWidget' • lib/widgets/quick_actions_widget.dart:590:17 • undefined_method
+  error • Expected to find '}' • lib/widgets/quick_actions_widget.dart:597:1 • expected_token
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_dashboard_widget.dart:18:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_dashboard_widget.dart:111:29 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_promotion_dialog.dart:114:36 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_promotion_dialog.dart:116:55 • deprecated_member_use
+warning • Unused import: 'package:lucasbeatsfederacao/services/permission_service.dart' • lib/widgets/voice_room_widget.dart:6:8 • unused_import
+warning • The declaration '_canCreateRoom' isn't referenced • lib/widgets/voice_room_widget.dart:152:8 • unused_element
+  error • There's no constant named 'admin' in 'Role' • lib/widgets/voice_room_widget.dart:155:62 • undefined_enum_constant
+  error • There's no constant named 'admin' in 'Role' • lib/widgets/voice_room_widget.dart:157:62 • undefined_enum_constant
+  error • There's no constant named 'admin' in 'Role' • lib/widgets/voice_room_widget.dart:161:34 • undefined_enum_constant
+warning • The declaration '_canJoinRoom' isn't referenced • lib/widgets/voice_room_widget.dart:167:8 • unused_element
+  error • There's no constant named 'admin' in 'Role' • lib/widgets/voice_room_widget.dart:172:62 • undefined_enum_constant
+  error • There's no constant named 'admin' in 'Role' • lib/widgets/voice_room_widget.dart:176:34 • undefined_enum_constant
+warning • The left operand can't be null, so the right operand is never executed • lib/widgets/voice_room_widget.dart:189:44 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/voice_room_widget.dart:196:27 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/voice_room_widget.dart:209:60 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed • lib/widgets/voice_room_widget.dart:281:44 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/voice_room_widget.dart:291:60 • unnecessary_non_null_assertion
+

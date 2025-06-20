@@ -1,0 +1,139 @@
+Analyzing manusf...                                             
+
+warning • The value of the field '_authService' isn't used • lib/providers/call_provider.dart:8:21 • unused_field
+   info • Use interpolation to compose strings and values • lib/providers/call_provider.dart:69:17 • prefer_interpolation_to_compose_strings
+   info • Unnecessary use of 'toList' in a spread • lib/screens/admin_panel_screen.dart:316:12 • unnecessary_to_list_in_spreads
+   info • Unnecessary use of 'toList' in a spread • lib/screens/admin_panel_screen.dart:362:16 • unnecessary_to_list_in_spreads
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:437:37 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:438:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:445:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:510:33 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:511:40 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/admin_panel_screen.dart:518:40 • use_build_context_synchronously
+warning • The '!' will have no effect because the receiver can't be null • lib/screens/call_contacts_screen.dart:164:61 • unnecessary_non_null_assertion
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/call_history_page.dart:201:26 • deprecated_member_use
+warning • Unused import: 'package:lucasbeatsfederacao/utils/logger.dart' • lib/screens/call_page.dart:7:8 • unused_import
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/call_page.dart:240:28 • use_build_context_synchronously
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/call_page.dart:266:35 • deprecated_member_use
+   info • Parameter 'key' could be a super parameter • lib/screens/call_screen.dart:11:9 • use_super_parameters
+   info • Use 'const' with the constructor to improve performance • lib/screens/call_screen.dart:90:20 • prefer_const_constructors
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/screens/call_screen.dart:123:12 • sized_box_for_whitespace
+   info • Use 'const' with the constructor to improve performance • lib/screens/clan_management_screen.dart:117:17 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/clan_management_screen.dart:118:17 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/screens/home_screen.dart:162:27 • prefer_const_constructors
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/home_screen.dart:211:28 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:148:54 • deprecated_member_use
+   info • Use 'const' with the constructor to improve performance • lib/screens/splash_screen.dart:163:45 • prefer_const_constructors
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:197:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:213:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/splash_screen.dart:250:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/chat_list_tab.dart:182:57 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:78:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:174:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:212:22 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/home_tab.dart:214:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/members_tab.dart:191:55 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/members_tab.dart:207:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/screens/tabs/missions_tab.dart:148:41 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/tabs/missions_tab.dart:277:44 • use_build_context_synchronously
+   info • Unnecessary use of 'toList' in a spread • lib/screens/voice_rooms_screen.dart:217:20 • unnecessary_to_list_in_spreads
+warning • The left operand can't be null, so the right operand is never executed • lib/screens/voice_rooms_screen.dart:261:44 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null • lib/screens/voice_rooms_screen.dart:271:58 • unnecessary_non_null_assertion
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/screens/voice_rooms_screen.dart:299:36 • use_build_context_synchronously
+   info • Unnecessary braces in a string interpolation • lib/services/cache_service.dart:157:43 • unnecessary_brace_in_string_interps
+warning • The '!' will have no effect because the receiver can't be null • lib/services/chat_service.dart:196:28 • unnecessary_non_null_assertion
+warning • The operand can't be 'null', so the condition is always 'true' • lib/services/firebase_service.dart:55:35 • unnecessary_null_comparison
+   info • Unnecessary override • lib/services/firebase_service.dart:199:8 • unnecessary_overrides
+   info • The prefix 'IO' isn't a lower_case_with_underscores identifier • lib/services/socket_service.dart:2:60 • library_prefixes
+warning • The name JitsiMeetingListener is shown, but isn't used • lib/services/voip_service.dart:7:87 • unused_shown_name
+warning • The '!' will have no effect because the receiver can't be null • lib/services/voip_service.dart:158:47 • unnecessary_non_null_assertion
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:21:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:156:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:206:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:236:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/admin_dashboard.dart:271:28 • deprecated_member_use
+warning • Unused import: 'package:lucasbeatsfederacao/services/permission_service.dart' • lib/widgets/chat_widget.dart:5:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/chat_widget.dart:276:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:60:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:72:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:85:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:97:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:193:29 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:276:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/clan_info_widget.dart:278:56 • deprecated_member_use
+   info • The private field _federations could be 'final' • lib/widgets/federation_management.dart:25:20 • prefer_final_fields
+   info • The private field _isLoading could be 'final' • lib/widgets/federation_management.dart:26:8 • prefer_final_fields
+warning • The value of the local variable 'authService' isn't used • lib/widgets/federation_management.dart:31:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:142:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:174:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:254:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:305:42 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:307:61 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:340:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:342:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:375:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/federation_management.dart:377:60 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:467:48 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:470:46 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:474:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:557:46 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:560:44 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/federation_management.dart:564:42 • use_build_context_synchronously
+warning • The declaration '_formatDate' isn't referenced • lib/widgets/federation_management.dart:575:10 • unused_element
+  error • The function 'setState' isn't defined • lib/widgets/federation_management.dart:583:5 • undefined_function
+  error • Undefined name '_isLoading' • lib/widgets/federation_management.dart:584:7 • undefined_identifier
+  error • Undefined name '_federationService' • lib/widgets/federation_management.dart:587:40 • undefined_identifier
+  error • The function 'setState' isn't defined • lib/widgets/federation_management.dart:588:7 • undefined_function
+  error • Undefined name '_federations' • lib/widgets/federation_management.dart:589:9 • undefined_identifier
+  error • Undefined name 'mounted' • lib/widgets/federation_management.dart:593:11 • undefined_identifier
+  error • Undefined name 'context' • lib/widgets/federation_management.dart:594:34 • undefined_identifier
+  error • The function 'setState' isn't defined • lib/widgets/federation_management.dart:597:7 • undefined_function
+  error • Undefined name '_isLoading' • lib/widgets/federation_management.dart:598:9 • undefined_identifier
+warning • The declaration '_handleFederationAction' isn't referenced • lib/widgets/federation_management.dart:603:8 • unused_element
+  error • Undefined name 'context' • lib/widgets/federation_management.dart:617:16 • undefined_identifier
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/federation_management.dart:629:46 • unnecessary_non_null_assertion
+  error • The function 'setState' isn't defined • lib/widgets/federation_management.dart:640:5 • undefined_function
+  error • Undefined name '_isLoading' • lib/widgets/federation_management.dart:641:7 • undefined_identifier
+  error • Undefined name '_federationService' • lib/widgets/federation_management.dart:644:13 • undefined_identifier
+  error • Undefined name 'mounted' • lib/widgets/federation_management.dart:645:11 • undefined_identifier
+  error • Undefined name 'context' • lib/widgets/federation_management.dart:646:36 • undefined_identifier
+  error • Undefined name 'mounted' • lib/widgets/federation_management.dart:651:11 • undefined_identifier
+  error • Undefined name 'context' • lib/widgets/federation_management.dart:652:34 • undefined_identifier
+  error • The function 'setState' isn't defined • lib/widgets/federation_management.dart:655:7 • undefined_function
+  error • Undefined name '_isLoading' • lib/widgets/federation_management.dart:656:9 • undefined_identifier
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/global_stats_widget.dart:109:38 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/global_stats_widget.dart:181:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/global_stats_widget.dart:235:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/incoming_call_overlay.dart:97:30 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/incoming_call_overlay.dart:98:30 • deprecated_member_use
+  error • The named parameter 'roomName' is required, but there's no corresponding argument • lib/widgets/incoming_call_overlay.dart:272:35 • missing_required_argument
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/member_list_item.dart:26:35 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/member_list_item.dart:170:22 • use_build_context_synchronously
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/member_list_item.dart:175:41 • unnecessary_non_null_assertion
+   info • Don't use 'BuildContext's across async gaps • lib/widgets/member_list_item.dart:186:30 • use_build_context_synchronously
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/mission_card.dart:28:35 • deprecated_member_use
+   info • Use 'const' with the constructor to improve performance • lib/widgets/mission_card.dart:46:28 • prefer_const_constructors
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/mission_card.dart:174:39 • deprecated_member_use
+   info • Use 'const' with the constructor to improve performance • lib/widgets/mission_card.dart:205:29 • prefer_const_constructors
+   info • Use 'const' with the constructor to improve performance • lib/widgets/mission_card.dart:208:38 • prefer_const_constructors
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/quick_actions_widget.dart:19:35 • deprecated_member_use
+warning • The declaration '_initiateCall' isn't referenced • lib/widgets/quick_actions_widget.dart:492:8 • unused_element
+  error • Expected to find '}' • lib/widgets/quick_actions_widget.dart:590:1 • expected_token
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_dashboard_widget.dart:18:35 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_dashboard_widget.dart:111:29 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_promotion_dialog.dart:114:36 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/user_promotion_dialog.dart:116:55 • deprecated_member_use
+warning • Unused import: 'package:lucasbeatsfederacao/services/permission_service.dart' • lib/widgets/voice_room_widget.dart:6:8 • unused_import
+warning • The declaration '_canCreateRoom' isn't referenced • lib/widgets/voice_room_widget.dart:152:8 • unused_element
+  error • The body might complete normally, causing 'null' to be returned, but the return type, 'bool', is a potentially non-nullable type • lib/widgets/voice_room_widget.dart:152:8 • body_might_complete_normally
+  error • Expected to find 'case' • lib/widgets/voice_room_widget.dart:154:9 • expected_token
+warning • The declaration '_canJoinRoom' isn't referenced • lib/widgets/voice_room_widget.dart:166:8 • unused_element
+  error • There's no constant named 'admin' in 'Role' • lib/widgets/voice_room_widget.dart:171:62 • undefined_enum_constant
+  error • There's no constant named 'admin' in 'Role' • lib/widgets/voice_room_widget.dart:175:34 • undefined_enum_constant
+warning • The left operand can't be null, so the right operand is never executed • lib/widgets/voice_room_widget.dart:188:44 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/voice_room_widget.dart:195:27 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/voice_room_widget.dart:208:60 • unnecessary_non_null_assertion
+warning • The left operand can't be null, so the right operand is never executed • lib/widgets/voice_room_widget.dart:280:44 • dead_null_aware_expression
+warning • The '!' will have no effect because the receiver can't be null • lib/widgets/voice_room_widget.dart:290:60 • unnecessary_non_null_assertion
+
+135 issues found. (ran in 4.2s)
